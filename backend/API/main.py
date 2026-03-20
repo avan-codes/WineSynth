@@ -25,10 +25,10 @@ def predict(input_vals:Data) :
         input_vals = list(input_vals)
 
         #loading prediction model
-        model = joblib.load(r"C:\Users\pranj\Desktop\Tech\Github\WineSynth\backend\API\model.pkl")
+        model = joblib.load(r"C:\Users\pranj\Desktop\Tech\Github\WineSynth\backend\API\models\model.pkl")
 
         #loading scaler model
-        scaler = load(r"C:\Users\pranj\Desktop\Tech\Github\WineSynth\backend\API\scaler.pkl")
+        scaler = load(r"C:\Users\pranj\Desktop\Tech\Github\WineSynth\backend\API\models\scaler.pkl")
         
         #input values
         input_vals = np.array(input_vals)
