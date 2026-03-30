@@ -4,6 +4,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel, Field
 from typing import Annotated, List
 import numpy as np
+from fastapi.middleware.cors import CORSMiddleware
 
 #data validation class 
 class Data(BaseModel):
