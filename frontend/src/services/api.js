@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://winesynth-backend.onrender.com',
+  baseURL: 'https://winesynth-backend-v2.onrender.com',
   headers: {
     'Content-Type': 'application/json',
   },
